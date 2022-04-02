@@ -1,3 +1,9 @@
+class Timer {
+    constructor(isActivate) {
+        this.isActivated = false;
+    }
+}
+
 function activarTemporizador() {
 
     var text_temporizador = document.getElementById("text_temporizador");
