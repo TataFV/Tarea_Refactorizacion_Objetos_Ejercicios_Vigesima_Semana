@@ -1,3 +1,8 @@
+class StopWatch {
+    constructor(isActivated) {
+        this.isActivated = false;
+    }
+
 function activarCronometro() {
     var text_cronometro = document.getElementById("text_cronometro");
     var horas = 0;
