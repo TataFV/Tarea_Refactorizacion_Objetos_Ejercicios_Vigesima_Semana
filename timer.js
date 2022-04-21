@@ -1,5 +1,6 @@
 class Timer {
     constructor(isActivate) {
+        this.time = time;
         this.isActivated = false;
     }
 }

@@ -1,7 +1,9 @@
 class StopWatch {
-    constructor(isActivated) {
+    constructor(time, isActivated) {
+        this.time = time;
         this.isActivated = false;
     }
+}
 
 function activarCronometro() {
     var text_cronometro = document.getElementById("text_cronometro");
